@@ -1,0 +1,60 @@
+.navigation-search{
+  background: url(img/header/search.svg) no-repeat;
+  width:18px;
+  height:18px;
+}
+.navigation-button-favourite{
+  background: url(img/header/favourite.svg) no-repeat;
+  width: 31px;
+  height: 27px;
+}
+.main-filter{
+  background: url(img/catalog/catalog-background.jpg) no-repeat;
+  width: 1200px;
+  height: 408px;
+}
+.breadcrumbs-home{
+  background: url(img/catalog/breadcrumbs-home.svg) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.breadcrumbs-arrow{
+  background: url(img/catalog/arrow.svg) no-repeat;
+  width: 6px;
+  height: 8px;
+}
+.sorting-card{
+  background: url(img/catalog/sort-tile.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.sorting-slide{
+  background: url(img/catalog/sort-slide.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.sorting-list-selected{
+  background: url(img/catalog/sort-line-selected.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.social-twitter{
+  background: url(img/footer/twitter.svg) no-repeat;
+  width: 18px;
+  height: 15px;
+}
+.social-facebook{
+  background: url(img/footer/facebook.svg) no-repeat;
+  width: 10px;
+  height: 18px;
+}
+.social-youtube{
+  background: url(img/footer/youtube.svg) no-repeat;
+  width: 20px;
+  height: 16px;
+}
+.footer-htmlacademy-link{
+  background: url(img/footer/html-logo.svg) no-repeat;
+  width: 115px;
+  height: 34px;
+}
