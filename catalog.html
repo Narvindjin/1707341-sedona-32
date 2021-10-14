@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles-catalog.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -39,7 +39,7 @@
             </button>
           </li>
           <li class="navigation-item">
-            <button class="navigation-button navigation-button-hotels" type="button">
+            <button class="button navigation-button-hotels" type="button">
             <span class="navigation-button-hotels-name">
               Хочу сюда!
             </span>
@@ -125,7 +125,7 @@
               <span class="visually-hidden">Изменить максимальную цену.</span>
             </button>
           </fieldset>
-          <button class="button button-submit" type="submit">Применить</button>
+          <button class="button catalog-button-submit" type="submit">Применить</button>
           <button class="button button-reset" type="button">Сбросить</button>
         </form>
       </section>
@@ -133,7 +133,7 @@
         <p class="sorting-result">Найдено гостиниц: 38</p>
         <form class="sorting-type">
           <label class="visually-hidden" for="sorting">Сортировка</label>
-          <select class="select-sortingl" id="sorting" name="sorting">
+          <select class="select-sorting" id="sorting" name="sorting">
             <option value="cheap">Сначала дешёвые</option>
             <option value="expensive">Сначала дорогие</option>
           </select>
@@ -220,22 +220,22 @@
         <a class="button-more button" href="#">Загрузить ещё</a>
         <ol class="pagination">
           <li class="pagination-item">
-            <a class="pagination-item pagination-current">1</a>
+            <a class="pagination-item button pagination-current">1</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
+            <a class="pagination-link button" href="#">2</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+            <a class="pagination-link button" href="#">3</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">4</a>
+            <a class="pagination-link button" href="#">4</a>
           </li>
           <li class="pagination-item pagination-more">
-            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link button" href="#">...</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">10</a>
+            <a class="pagination-link button" href="#">10</a>
           </li>
         </ol>
         <form class="pagination-amount">
@@ -247,14 +247,14 @@
           <button class="visually-hidden" type="submit">Установить число гостиниц</button>
         </form>
       </section>
-      <section class="newsletter">
+      <section class="catalog-newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
         <p class="newsletter-text">Только полезная информация и никакого спама,честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="newsletter-email">
+          <p class="newsletter-email-text">
             <label class="visually-hidden" for="newsletter-email">E-mail</label>
             <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail" required>
-            <button class="newsletter-button" type="submit">Подписаться</button>
+            <button class="button newsletter-button" type="submit">Подписаться</button>
           </p>
         </form>
       </section>

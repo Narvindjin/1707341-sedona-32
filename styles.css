@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color:black;
+  background-color: white;
+}
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* header */
+.navigation-link{
+  font-family: "PT Sans" sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+}
+.navigation-search{
+  background: url(img/header/search.svg) no-repeat;
+  width:18px;
+  height:18px;
+}
+.navigation-button-favourite{
+  background: url(img/header/favourite.svg) no-repeat;
+  width: 31px;
+  height: 27px;
+}
+.navigation-favourite-counter{
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+}
+.navigation-button-hotels{
+  font-size: 16px;
+  line-height: 21px;
+  background: #756257;
+  border-radius: 4px;
+}
+/*index*/
+.intro{
+  background: url(img/index/index-background.jpg) no-repeat;
+  width: 1200px;
+  height: 485px;
+}
+.main-description-text{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.main-description-title{
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+.advantages-item {
+  background: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+.advantages-item-important {
+  background: #83B3D3;
+  color: #FFFFFF;
+}
+.advantages-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.advantages-village-item {
+  background: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+.advantages-white {
+  background:#FFFFFF;
+}
+.advantages-dark {
+  background: rgba(131, 179, 211, 0.2);
+}
+.advantages-village-house{
+  background: url(img/index/house.svg) no-repeat;
+  width: 75px;
+  height: 72px;
+}
+.advantages-village-food{
+  background: url(img/index/food.svg) no-repeat;
+  width: 74px;
+  height: 70px;
+}
+.advantages-village-gift{
+  background: url(img/index/gift.svg) no-repeat;
+  width: 64px;
+  height: 76px;
+}
+.advantages-canyon-picture{
+  background: url(img/index/photo-canyon.jpg) no-repeat;
+  width: 800px;
+  height: 364px;
+}
+/*index-hotels*/
+.index-hotels-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.index-hotels-text{
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.index-hotels-button{
+  background: #756257;
+  border-radius: 10px;
+  line-height: 36px;
+}
+/*newsletter*/
+.newsletter{
+  background: url(img/index/newsletter-background.jpg) no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+.newsletter-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.newsletter-text{
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.newsletter-email{
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  color: #000000;
+  opacity: 0.6;
+  background-color: #F2F2F2;;
+}
+/*footer*/
+.footer-contact-phone{
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  color: #000000;
+}
+.social-twitter{
+  background: url(img/footer/twitter.svg) no-repeat;
+  width: 18px;
+  height: 15px;
+}
+.social-facebook{
+  background: url(img/footer/facebook.svg) no-repeat;
+  width: 10px;
+  height: 18px;
+}
+.social-youtube{
+  background: url(img/footer/youtube.svg) no-repeat;
+  width: 20px;
+  height: 16px;
+}
+.footer-htmlacademy-link{
+  background: url(img/footer/html-logo.svg) no-repeat;
+  width: 115px;
+  height: 34px;
+}
+.main-filter{
+  background: url(img/catalog/catalog-background.jpg) no-repeat;
+  background-size: 100% auto;
+}
+.breadcrumbs-home{
+  background: url(img/catalog/breadcrumbs-home.svg) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.breadcrumbs-arrow{
+  background: url(img/catalog/arrow.svg) no-repeat;
+  width: 6px;
+  height: 8px;
+}
+.sorting-card{
+  background: url(img/catalog/sort-tile.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.sorting-slide{
+  background: url(img/catalog/sort-slide.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.sorting-list-selected{
+  background: url(img/catalog/sort-line-selected.svg) no-repeat;
+  width: 48px;
+  height: 48px;
+}
+/*catalog*/
+.main-filter{
+  color: #FFFFFF;
+}
+.inner-header-title{
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+.breadcrumbs-link{
+  font-size: 16px;
+}
+.catalog-filter-title{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.catalog-filter-item{
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-filter-cell{
+  border: 2px solid #FFFFFF;
+}
+.catalog-filter-input{
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-filter-text{
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  opacity: 0.3;
+}
+.catalog-button-submit{
+  font-size: 16px;
+  line-height: 21px;
+}
+.button-reset{
+  font-size: 18px;
+  line-height: 23px;
+  background-color: transparent;
+}
+.sorting-result{
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.select-sorting{
+  color: #333333;
+  font-size: 18px;
+  line-height: 23px;
+}
+.hotel-item-title{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  text-decoration: none;
+  color:black
+}
+.hotel-item-type{
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.hotel-item-price{
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.hotel-item-details{
+  background: #756257;
+}
+.hotel-item-rating{
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+.button-favoured{
+  background: #7DB54F;
+  border-radius: 4px;
+}
+.pagination-current{
+  color: #000000;
+  background: #F2F2F2;
+}
+.pagination-amount{
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.catalog-newsletter{
+  color: #000000;
+}
