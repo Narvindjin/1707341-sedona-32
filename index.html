@@ -10,7 +10,7 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-current"> Главная</a>
+            <a class="navigation-link navigation-current">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -19,9 +19,9 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <a class="navigation-link navigation-logo">
-          <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона" width="138" height="70">
-        </a>
+        <div class="navigation-logo-container">
+            <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона" width="138" height="70">
+        </div>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link navigation-search" href="#">
@@ -31,12 +31,12 @@
             </a>
           </li>
           <li class="navigation-item">
-            <button class="navigation-button navigation-button-favourite" type="button">
-              <span class="visually-hidden">
-                Избранное
-              </span>
-              <span class="navigation-favourite-counter">12</span>
-            </button>
+              <button class="navigation-button navigation-button-favourite" type="button">
+                <span class="visually-hidden">
+                  Избранное
+                </span>
+                <span class="navigation-favourite-counter">12</span>
+              </button>
           </li>
           <li class="navigation-item">
             <button class="button navigation-button-hotels" type="button">
@@ -48,7 +48,7 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index main-containter">
+    <main class="main-index main-container">
       <div class="page-container">
         <section class="intro">
           <img class="intro-picture intro-welcome" src="img/index/welcome.svg" alt="Добро пожаловать в блистательный" width="256" height="85">
@@ -119,17 +119,17 @@
         </section>
         <section class="index-hotels">
           <h2 class="index-hotels-title">Заинтересовались?</h2>
-          <p class="index-hotels-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p class="index-hotels-text">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <button class="index-hotels-button button" type="button">Поиск гостиницы В Седоне</button>
         </section>
         <section class="newsletter">
           <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-          <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <p class="newsletter-text">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="newsletter-email-text">
               <label class="visually-hidden" for="newsletter-email">E-mail</label>
               <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail" required>
-              <button class="newsletter-button" type="submit">Подписаться</button>
+              <button class="button newsletter-button" type="submit">Подписаться</button>
             </p>
           </form>
         </section>
