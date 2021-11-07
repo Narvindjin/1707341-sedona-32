@@ -176,13 +176,56 @@ ol {
   margin-top: 23px;
   margin-bottom: 79px;
 }
+.advantages-list{
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 0px;
+  padding: 0px;
+}
+.advantages-item-picture{
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-column: 1/-1;
+}
+.advantages-village-list{
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+}
 .advantages-item {
   background: rgba(131, 179, 211, 0.12);
   text-align: center;
+  min-height: 384px;
 }
 .advantages-item-important {
   background: #83B3D3;
   color: #FFFFFF;
+}
+.advantages-item-important .advantages-title {
+  margin-top: 98px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 220px;
+}
+.advantages-item-important .advantages-text {
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 220px;
+}
+.advantages-item .advantages-title {
+  margin-top: 98px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+}
+.advantages-item .advantages-text {
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
 }
 .advantages-title {
   text-transform: uppercase;
@@ -192,7 +235,20 @@ ol {
 }
 .advantages-village-item {
   background: rgba(131, 179, 211, 0.12);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 384px;
+}
+.advantages-village-item .advantages-title {
+  margin-bottom: 0;
+  margin-top: 23px;
+}
+.advantages-village-item .advantages-text {
+  margin-top: 20px;
+  margin-bottom: 89px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
 }
 .advantages-white {
   background:#FFFFFF;
@@ -205,23 +261,27 @@ ol {
   width: 75px;
   height: 72px;
   margin: 0 auto;
+  margin-top: auto;
 }
 .advantages-village-food{
   background: url(img/index/food.svg) no-repeat;
   width: 74px;
   height: 70px;
   margin: 0 auto;
+  margin-top: auto;
 }
 .advantages-village-gift{
   background: url(img/index/gift.svg) no-repeat;
   width: 64px;
   height: 76px;
   margin: 0 auto;
+  margin-top: auto;
 }
 .advantages-canyon-picture{
   background: url(img/index/photo-canyon.jpg) no-repeat;
   width: 800px;
-  height: 364px;
+  height: 384px;
+  grid-column: span 2;
 }
 /*index-hotels*/
 .index-hotels{
@@ -315,8 +375,8 @@ input#newsletter-email::placeholder{
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 42px;
+  padding-bottom: 44px;
 }
 .footer-contact-phone{
   font-size: 40px;
@@ -766,4 +826,5 @@ input#newsletter-email::placeholder{
 }
 .catalog-newsletter{
   color: #000000;
+  margin-bottom: 138px;
 }
