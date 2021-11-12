@@ -441,7 +441,7 @@ ol {
   display: flex;
   justify-content: center;
 }
-input#newsletter-email{
+.email-field{
   font-size: 18px;
   line-height: 26px;
   color: #000000;
@@ -454,19 +454,24 @@ input#newsletter-email{
   padding: 0;
   padding-left: 22px;
 }
-input#newsletter-email:hover{
+.email-field:hover{
   background: #E6E6E6;
 }
-input#newsletter-email:focus{
+.email-field:focus{
   background: #E6E6E6;
   outline: 3px solid #83B3D3;
 }
-input#newsletter-email:focus-visible{
+.email-field:focus-visible{
   background: #FFFFFF;
   outline: 0px;
   border: 2px solid #000000;
 }
-input#newsletter-email::placeholder{
+.email-field:not(:focus):not(:placeholder-shown){
+  background: #FFFFFF;
+  border: 2px solid #FF5757;
+  outline: 0px;
+}
+.email-field::placeholder{
   opacity: 0.6;
 }
 .newsletter-button{
@@ -826,9 +831,15 @@ input#newsletter-email::placeholder{
   text-transform: uppercase;
   font-weight: 700;
   margin-left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .select-sorting{
   color: #333333;
+  background-image: url("img/catalog/dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  appearance: none;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -838,8 +849,19 @@ input#newsletter-email::placeholder{
   box-sizing: border-box;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 11px;
   padding-left: 19px;
   margin: 0;
+}
+.select-sorting:hover, .select-sorting:focus, .select-sorting:focus-visible{
+  border: 2px solid #83B3D3;
+}
+.select-sorting:active{
+  opacity: 0.3;
+}
+.select-sorting:focus-visible{
+  outline: none;
 }
 .hotel-list{
   padding: 0px;
@@ -1037,6 +1059,10 @@ input#newsletter-email::placeholder{
   margin-left: auto;
 }
 .select-amount{
+  background-image: url("img/catalog/dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  appearance: none;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
@@ -1047,6 +1073,15 @@ input#newsletter-email::placeholder{
   min-width: 160px;
   min-height: 48px;
   padding-left: 17px;
+}
+.select-amount:hover, .select-amount:focus, .select-amount:focus-visible{
+  border: 2px solid #83B3D3;
+}
+.select-amount:active{
+  opacity: 0.3;
+}
+.select-amount:focus-visible{
+  outline: none;
 }
 .catalog-newsletter{
   color: #000000;
