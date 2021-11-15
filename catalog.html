@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicons/favicon-32x32.png">
 </head>
 
 <body>
@@ -22,20 +24,20 @@
         </li>
       </ul>
       <div class="navigation-logo-container">
-        <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона" width="138" height="70">
-     </div>
-     <ul class="navigation-list navigation-user">
-      <li class="navigation-item">
-        <a class="navigation-link navigation-search" href="#">
-          <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="m18 16.5-3.7-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8-8S0 3.6 0 8c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l3.7 3.7 1.4-1.5ZM8 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6Z" fill="#000"/>
-          </svg>
-          <span class="visually-hidden">
-            Поиск
-          </span>
-        </a>
-      </li>
-      <li class="navigation-item">
+          <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона" width="138" height="70">
+      </div>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link navigation-search" href="#">
+            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="m18 16.5-3.7-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8-8S0 3.6 0 8c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l3.7 3.7 1.4-1.5ZM8 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6Z" fill="#000"/>
+            </svg>
+            <span class="visually-hidden">
+              Поиск
+            </span>
+          </a>
+        </li>
+        <li class="navigation-item navigation-favourite">
           <button class="navigation-button navigation-button-favourite" type="button">
             <svg class="navigation-icon navigation-icon-favourite" aria-hidden="true" focusable="false" width="41" height="37" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="favourite-heart" d="M18.9 27a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9a5.4 5.4 0 0 1 4.4-8.7c1.3 0 2.5.5 3.5 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" fill="#000000"/>
@@ -138,64 +140,67 @@
           </ul>
         </header>
         <div class="filter-container">
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
-          <fieldset class="catalog-filter-commodities">
-            <legend class="catalog-filter-title">Инфраструктура:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <input class="visually-hidden catalog-checkbox" type="checkbox" id="pool" name="commodities" value="pool" checked>
-                <label for="pool" class="catalog-custom-checkbox"></label>
-                <label for="pool">Бассейн</label>
-              </li>
-              <li class="catalog-filter-item">
-                <input class="visually-hidden catalog-checkbox" type="checkbox" id="parking" name="commodities" value="parking" checked>
-                <label for="parking" class="catalog-custom-checkbox"></label>
-                <label for="parking">Парковка</label>
-              </li>
-              <li class="catalog-filter-item">
-                <input class="visually-hidden catalog-checkbox" type="checkbox" id="wifi" name="commodities" value="wifi">
-                <label for="wifi" class="catalog-custom-checkbox"></label>
-                <label for="wifi">Wi-Fi</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-lodgings">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <input class="catalog-radio visually-hidden" type="radio" id="hotel" name="lodging" value="hotel" checked>
-                <label for="hotel" class="catalog-custom-radio"></label>
-                <label for="hotel">Гостиница</label>
-              </li>
-              <li class="catalog-filter-item">
-                <input class="catalog-radio visually-hidden" type="radio" id="motel" name="lodging" value="motel">
-                <label for="motel" class="catalog-custom-radio"></label>
-                <label for="motel">Мотель</label>
-              </li>
-              <li class="catalog-filter-item">
-                <input class="catalog-radio visually-hidden" type="radio" id="apartments" name="lodging" value="apartments">
-                <label for="apartments" class="catalog-custom-radio"></label>
-                <label for="apartments">Апартаменты</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-price">
-            <legend class="catalog-filter-title catalog-title-table">Стоимость, ₽:</legend>
-            <table class="catalog-filter-table">
-              <tr class="catalog-filter-row">
-                <td class="catalog-filter-cell">
-                  <label class="catalog-filter-label">
-                    <input class="catalog-filter-input" type="number" name="min-price" min="0" max="9999999" value="0">
-                  </label>
-                  <span class="catalog-filter-text">от</span>
-                </td>
-                <td class="catalog-filter-cell">
-                  <label class="catalog-filter-label">
-                    <input class="catalog-filter-input input-rotated" type="number" name="max-price" min="0" max="9999999" value="9000">
-                  </label>
-                  <span class="catalog-filter-text">до</span>
-                </td>
-              </tr>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset class="catalog-filter-commodities">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="pool" name="commodities" value="pool"
+                    checked>
+                  <label for="pool" class="catalog-custom-checkbox"></label>
+                  <label for="pool">Бассейн</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="parking" name="commodities" value="parking"
+                    checked>
+                  <label for="parking" class="catalog-custom-checkbox"></label>
+                  <label for="parking">Парковка</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="wifi" name="commodities" value="wifi">
+                  <label for="wifi" class="catalog-custom-checkbox"></label>
+                  <label for="wifi">Wi-Fi</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-lodgings">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <input class="catalog-radio visually-hidden" type="radio" id="hotel" name="lodging" value="hotel" checked>
+                  <label for="hotel" class="catalog-custom-radio"></label>
+                  <label for="hotel">Гостиница</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <input class="catalog-radio visually-hidden" type="radio" id="motel" name="lodging" value="motel">
+                  <label for="motel" class="catalog-custom-radio"></label>
+                  <label for="motel">Мотель</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <input class="catalog-radio visually-hidden" type="radio" id="apartments" name="lodging" value="apartments">
+                  <label for="apartments" class="catalog-custom-radio"></label>
+                  <label for="apartments">Апартаменты</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-price">
+              <legend class="catalog-filter-title catalog-title-table">Стоимость, ₽:</legend>
+              <table class="catalog-filter-table">
+                <tr class="catalog-filter-row">
+                  <td class="catalog-filter-cell">
+                    <label class="catalog-filter-label">
+                      <input class="catalog-filter-input" type="number" name="min-price" min="0" max="9999999" value="0">
+                    </label>
+                    <span class="catalog-filter-text">от</span>
+                  </td>
+                  <td class="catalog-filter-cell">
+                    <label class="catalog-filter-label">
+                      <input class="catalog-filter-input input-rotated" type="number" name="max-price" min="0" max="9999999"
+                        value="9000">
+                    </label>
+                    <span class="catalog-filter-text">до</span>
+                  </td>
+                </tr>
             </table>
             <div class="range-scale">
               <div class="range-bar" style="left: 0px; width: 227px">
@@ -421,7 +426,7 @@
       </section>
       <section class="catalog-newsletter">
         <h2 class="newsletter-title catalog-newsletter-title">Подпишитесь на рассылку</h2>
-        <p class="newsletter-text">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
+        <p class="newsletter-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="newsletter-email-text">
             <label class="visually-hidden" for="newsletter-email">E-mail</label>

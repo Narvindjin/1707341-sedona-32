@@ -68,12 +68,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-ul {
-  list-style-type: none;
-}
-ol {
-  list-style-type: none;
-}
 /* header */
 .navigation{
   display: flex;
@@ -88,6 +82,7 @@ ol {
   box-sizing: border-box;
   padding: 0;
   width: 470px;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -171,7 +166,7 @@ ol {
   left: 0;
   margin: auto;
 }
-.navigation-search:hover .navigation-icon path{
+.navigation-search:hover path{
   fill:#756257;
 }
 .navigation-search:focus-visible .navigation-icon, .navigation-search:focus-visible .navigation-icon{
@@ -180,7 +175,7 @@ ol {
   border-radius: 10%;
   fill: #756257;
 }
-.navigation-search:active .navigation-icon path{
+.navigation-search:active path{
   fill:#756257;
   fill-opacity: 0.3
  }
@@ -197,19 +192,19 @@ ol {
   position: relative;
   cursor: pointer;
 }
-.navigation-button-favourite:hover .navigation-icon-favourite .favourite-heart{
+.navigation-button-favourite:hover .favourite-heart{
   fill: #756257;
 }
-.navigation-button-favourite:focus-visible .navigation-icon-favourite .favourite-heart{
+.navigation-button-favourite:focus-visible .favourite-heart{
   fill: #756257;
 }
 .navigation-button-favourite:focus-visible{
   outline: none;
 }
-.navigation-button-favourite:focus-visible .navigation-icon-favourite .favourite-border{
+.navigation-button-favourite:focus-visible .favourite-border{
   stroke-opacity: 1;
 }
-.navigation-button-favourite:active .navigation-icon-favourite .favourite-heart{
+.navigation-button-favourite:active .favourite-heart{
   fill: #756257;
   fill-opacity: 0.3;
 }
@@ -267,6 +262,7 @@ ol {
 .popover-list{
   margin: 25px;
   padding: 0px;
+  list-style-type: none;
 }
 .popover-item{
   margin-bottom: 25px;
@@ -332,10 +328,10 @@ ol {
 .popover-bin-button:focus-visible{
   outline: none;
 }
-.popover-bin-button svg g path{
+.popover-bin-button path{
   fill-opacity: 0.2;
 }
-.popover-bin-button:hover svg g path{
+.popover-bin-button:hover path{
   fill-opacity: 1;
 }
 .popover-bin-button:focus-visible{
@@ -343,7 +339,7 @@ ol {
   outline-offset: 10px;
   border-radius: 1px;
 }
-.popover-bin-button:active svg g path{
+.popover-bin-button:active path{
   fill-opacity: 0.1;
 }
 .popover-button-all{
@@ -416,6 +412,7 @@ ol {
   gap: 0px;
   padding: 0px;
   margin: 0;
+  list-style-type: none;
 }
 .advantages-item-picture{
   display: grid;
@@ -426,6 +423,7 @@ ol {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 400px);
+  list-style-type: none;
 }
 .advantages-item {
   background: rgba(131, 179, 211, 0.12);
@@ -675,6 +673,7 @@ ol {
   grid-template-columns: repeat(5, 40px);
   grid-template-rows: 40px;
   gap: 4px;
+  list-style-type: none;
 }
 .footer-button{
   display: flex;
@@ -684,7 +683,7 @@ ol {
   align-items: center;
   box-sizing: border-box;
 }
-.footer-button:hover svg path, .footer-button:focus-visible svg path, .footer-button:active svg path{
+.footer-button:hover path, .footer-button:focus-visible path, .footer-button:active path{
   fill: #68A2CA;
 }
 .footer-button:focus-visible {
@@ -692,7 +691,7 @@ ol {
   border-radius: 2px;
   outline: none;
 }
-.footer-button:active svg path{
+.footer-button:active path{
   fill-opacity: 0.3;
 }
 .footer-htmlacademy-link{
@@ -706,7 +705,7 @@ ol {
   margin-right: 49.5px;
   text-decoration: none;
 }
-.footer-htmlacademy-link:hover svg path, .footer-htmlacademy-link:focus-visible svg path, .footer-htmlacademy-link:active svg path{
+.footer-htmlacademy-link:hover path, .footer-htmlacademy-link:focus-visible path, .footer-htmlacademy-link:active path{
   fill: #756257;
 }
 .footer-htmlacademy-link:focus-visible {
@@ -714,7 +713,7 @@ ol {
   border-radius: 10px;
   outline: none;
 }
-.footer-htmlacademy-link:active svg path{
+.footer-htmlacademy-link:active path{
   fill-opacity: 0.3;
 }
 /*modal window*/
@@ -760,7 +759,7 @@ ol {
 .modal-hotels-close:focus-visible{
   outline: 3px solid #83B3D3;
 }
-.modal-hotels-close:active svg path{
+.modal-hotels-close:active path{
   fill-opacity: 0.3;
 }
 .modal-hotels-title{
@@ -1013,6 +1012,7 @@ ol {
   margin-bottom: 45px;
   margin-left: -2px;
   padding: 0;
+  list-style-type: none;
 }
 .breadcrumbs-item{
   margin-right: 5px;
@@ -1041,7 +1041,7 @@ ol {
   align-items: center;
   justify-content: center;
 }
-.breadcrumbs-home:hover a svg path{
+.breadcrumbs-home:hover path{
   fill-opacity: 0.6;
 }
 .breadcrumbs-home a:focus-visible{
@@ -1049,7 +1049,7 @@ ol {
   outline-offset: 3px;
   border-radius: 1px;
 }
-.breadcrumbs-home:active a svg path{
+.breadcrumbs-home:active path{
   fill-opacity: 0.3;
 }
 .breadcrumbs-arrow{
@@ -1065,6 +1065,11 @@ ol {
   padding-right: 5px;
   cursor: pointer;
 }
+.catalog-filter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .catalog-filter-title{
   font-size: 20px;
   line-height: 26px;
@@ -1075,6 +1080,7 @@ ol {
 .catalog-filter-list{
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 .catalog-filter-item{
   display: flex;
@@ -1346,16 +1352,16 @@ ol {
   width: 48px;
   height: 48px;
 }
-.sorting-choice-selected svg rect{
+.sorting-choice-selected rect{
   stroke: #000000;
 }
 .sorting-choice-selected:focus-visible{
   outline: none;
 }
-.sorting-choice:hover svg rect{
+.sorting-choice:hover rect{
   stroke: #83B3D3;
 }
-.sorting-choice:focus-visible svg rect{
+.sorting-choice:focus-visible rect{
   stroke: #83B3D3;
 }
 .sorting-choice:focus-visible{
@@ -1406,6 +1412,7 @@ ol {
 .hotel-list{
   padding: 0px;
   margin: 0px;
+  list-style-type: none;
 }
 .hotel-container{
   width: 1056px;
@@ -1583,6 +1590,7 @@ ol {
   width: 500px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .pagination-item{
   display: flex;
