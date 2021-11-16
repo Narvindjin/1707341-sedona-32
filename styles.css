@@ -1621,6 +1621,7 @@ body {
   background-image: url("img/catalog/dropdown.svg");
   background-repeat: no-repeat;
   background-position: right 21px center;
+  background-color: #FFFFFF;
   appearance: none;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
