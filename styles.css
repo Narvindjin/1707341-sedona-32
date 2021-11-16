@@ -91,8 +91,8 @@ body {
   margin-right: 0;
 }
 .navigation-logo-container{
-  margin-left: 6px;
-  margin-right: 9px;
+  margin-left: auto;
+  margin-right: auto;
   width: 138px;
   overflow: visible;
   height: 65px;
@@ -100,10 +100,11 @@ body {
   display: flex;
 }
 .navigation-user{
-  width: 450px;
+  width: 453px;
   margin-right: 72px;
   margin-left: 0;
   justify-content: right;
+  justify-self: end;
 }
 .navigation-user li{
   display: flex;
@@ -1380,6 +1381,7 @@ body {
 .select-sorting{
   color: #333333;
   background-image: url("img/catalog/dropdown.svg");
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: right 21px center;
   appearance: none;
