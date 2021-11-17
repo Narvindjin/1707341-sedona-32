@@ -102,7 +102,7 @@ body {
 .navigation-user{
   width: 453px;
   margin-right: 72px;
-  margin-left: 0;
+  margin-left: 0px;
   justify-content: right;
   justify-self: end;
 }
