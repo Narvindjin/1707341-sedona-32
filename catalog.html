@@ -24,7 +24,7 @@
         </li>
       </ul>
       <div class="navigation-logo-container">
-          <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона" width="138" height="70">
+          <img src="img/header/sedona-logo.svg" alt="Логотип городка Седона." width="138" height="70">
       </div>
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
@@ -64,14 +64,14 @@
             <li class="popover-item">
               <a class="popover-item-link" href="#">
                 <div class="popover-image-container">
-                  <img src="img/header/inn-small.jpg" alt="Вид гостиницы в скале" width="48" height="48">
+                  <img src="img/header/inn-small.jpg" alt="Вид гостиницы в скале." width="48" height="48">
                 </div>
                 <div class="popover-text-container">
                   <h2 class="popover-item-title">Desert Quail Inn</h2>
                   <p class="popover-item-text">Мотель</p>
                 </div>
               </a>
-              <button class="button popover-bin-button">
+              <button class="button popover-bin-button" type="button">
                 <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g fill="#000">
                     <path d="M15.3 2.3H.6c-.3 0-.6.2-.6.5s.3.6.6.6h1.7v12c0 .3.3.6.6.6h10.2c.3 0 .6-.3.6-.6v-12h1.7c.3 0 .6-.3.6-.6s-.4-.5-.7-.5Zm-2.8 12.5H3.4V3.4h9.1v11.4ZM6.2 1.2h3.4c.3 0 .6-.3.6-.6S10 0 9.7 0H6.2c-.3 0-.5.3-.5.6s.2.6.5.6Z"/>
@@ -84,14 +84,14 @@
             <li class="popover-item">
               <a class="popover-item-link" href="#">
                 <div class="popover-image-container">
-                  <img src="img/header/villas-small.jpg" alt="Вид каньона из Poco Diablo" width="48" height="48">
+                  <img src="img/header/villas-small.jpg" alt="Вид каньона из Poco Diablo." width="48" height="48">
                 </div>
                 <div class="popover-text-container">
                   <h2 class="popover-item-title">Villas at Poco Diablo</h2>
                   <p class="popover-item-text">Апартаменты</p>
                 </div>
               </a>
-              <button class="button popover-bin-button">
+              <button class="button popover-bin-button" type="button">
                 <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g fill="#000">
                     <path d="M15.3 2.3H.6c-.3 0-.6.2-.6.5s.3.6.6.6h1.7v12c0 .3.3.6.6.6h10.2c.3 0 .6-.3.6-.6v-12h1.7c.3 0 .6-.3.6-.6s-.4-.5-.7-.5Zm-2.8 12.5H3.4V3.4h9.1v11.4ZM6.2 1.2h3.4c.3 0 .6-.3.6-.6S10 0 9.7 0H6.2c-.3 0-.5.3-.5.6s.2.6.5.6Z"/>
@@ -125,9 +125,10 @@
           <ul class="breadcrumbs">
             <li class="breadcrumbs-home">
               <a class="breadcrumbs-link" href="index.html">
-                <svg aria-hidden="true" focusable="false" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" fill="#fff"/>
-                  <path d="M4 10h1V7.5h2V10h1V6.5H4V10Z" fill="#fff"/>
+                <svg aria-hidden="true" focusable="false" width="12" height="12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" fill="#fff" />
+                  <path d="M4 10h1V7.5h2V10h1V6.5H4V10Z" fill="#fff" />
                 </svg>
                 <span class="visually-hidden">Главная</span>
               </a>
@@ -139,68 +140,67 @@
             </li>
           </ul>
         </header>
-        <div class="filter-container">
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-commodities">
-              <legend class="catalog-filter-title">Инфраструктура:</legend>
-              <ul class="catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="pool" name="commodities" value="pool"
-                    checked>
-                  <label for="pool" class="catalog-custom-checkbox"></label>
-                  <label for="pool">Бассейн</label>
-                </li>
-                <li class="catalog-filter-item">
-                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="parking" name="commodities" value="parking"
-                    checked>
-                  <label for="parking" class="catalog-custom-checkbox"></label>
-                  <label for="parking">Парковка</label>
-                </li>
-                <li class="catalog-filter-item">
-                  <input class="visually-hidden catalog-checkbox" type="checkbox" id="wifi" name="commodities" value="wifi">
-                  <label for="wifi" class="catalog-custom-checkbox"></label>
-                  <label for="wifi">Wi-Fi</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset class="catalog-filter-lodgings">
-              <legend class="catalog-filter-title">Тип жилья:</legend>
-              <ul class="catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <input class="catalog-radio visually-hidden" type="radio" id="hotel" name="lodging" value="hotel" checked>
-                  <label for="hotel" class="catalog-custom-radio"></label>
-                  <label for="hotel">Гостиница</label>
-                </li>
-                <li class="catalog-filter-item">
-                  <input class="catalog-radio visually-hidden" type="radio" id="motel" name="lodging" value="motel">
-                  <label for="motel" class="catalog-custom-radio"></label>
-                  <label for="motel">Мотель</label>
-                </li>
-                <li class="catalog-filter-item">
-                  <input class="catalog-radio visually-hidden" type="radio" id="apartments" name="lodging" value="apartments">
-                  <label for="apartments" class="catalog-custom-radio"></label>
-                  <label for="apartments">Апартаменты</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset class="catalog-filter-price">
-              <legend class="catalog-filter-title catalog-title-table">Стоимость, ₽:</legend>
-              <table class="catalog-filter-table">
-                <tr class="catalog-filter-row">
-                  <td class="catalog-filter-cell">
-                    <label class="catalog-filter-label">
-                      <input class="catalog-filter-input" type="number" name="min-price" min="0" max="9999999" value="0">
-                    </label>
-                    <span class="catalog-filter-text">от</span>
-                  </td>
-                  <td class="catalog-filter-cell">
-                    <label class="catalog-filter-label">
-                      <input class="catalog-filter-input input-rotated" type="number" name="max-price" min="0" max="9999999"
-                        value="9000">
-                    </label>
-                    <span class="catalog-filter-text">до</span>
-                  </td>
-                </tr>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="catalog-filter-commodities">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <input class="visually-hidden catalog-checkbox" type="checkbox" id="pool" name="commodities" value="pool"
+                  checked>
+                <label for="pool" class="catalog-custom-checkbox"></label>
+                <label for="pool">Бассейн</label>
+              </li>
+              <li class="catalog-filter-item">
+                <input class="visually-hidden catalog-checkbox" type="checkbox" id="parking" name="commodities"
+                  value="parking" checked>
+                <label for="parking" class="catalog-custom-checkbox"></label>
+                <label for="parking">Парковка</label>
+              </li>
+              <li class="catalog-filter-item">
+                <input class="visually-hidden catalog-checkbox" type="checkbox" id="wifi" name="commodities" value="wifi">
+                <label for="wifi" class="catalog-custom-checkbox"></label>
+                <label for="wifi">Wi-Fi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter-lodgings">
+            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <input class="catalog-radio visually-hidden" type="radio" id="hotel" name="lodging" value="hotel" checked>
+                <label for="hotel" class="catalog-custom-radio"></label>
+                <label for="hotel">Гостиница</label>
+              </li>
+              <li class="catalog-filter-item">
+                <input class="catalog-radio visually-hidden" type="radio" id="motel" name="lodging" value="motel">
+                <label for="motel" class="catalog-custom-radio"></label>
+                <label for="motel">Мотель</label>
+              </li>
+              <li class="catalog-filter-item">
+                <input class="catalog-radio visually-hidden" type="radio" id="apartments" name="lodging" value="apartments">
+                <label for="apartments" class="catalog-custom-radio"></label>
+                <label for="apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter-price">
+            <legend class="catalog-filter-title catalog-title-table">Стоимость, ₽:</legend>
+            <table class="catalog-filter-table">
+              <tr class="catalog-filter-row">
+                <td class="catalog-filter-cell">
+                  <label class="catalog-filter-label">
+                    <input class="catalog-filter-input" type="number" name="min-price" min="0" max="9999999" value="0">
+                  </label>
+                  <span class="catalog-filter-text">от</span>
+                </td>
+                <td class="catalog-filter-cell">
+                  <label class="catalog-filter-label">
+                    <input class="catalog-filter-input input-rotated" type="number" name="max-price" min="0" max="9999999"
+                      value="9000">
+                  </label>
+                  <span class="catalog-filter-text">до</span>
+                </td>
+              </tr>
             </table>
             <div class="range-scale">
               <div class="range-bar" style="left: 0px; width: 227px">
@@ -217,8 +217,7 @@
             <button class="button catalog-button-submit" type="submit"><span>Применить</span></button>
             <button class="button button-reset" type="reset"><span>Сбросить</span></button>
           </div>
-          </form>
-        </div>
+        </form>
       </section>
       <section class="main-hotels">
         <div class="sorting-container">
@@ -257,7 +256,7 @@
           <li class="hotel-item">
             <div class="hotel-container">
               <a class="hotel-item-link hotel-item-link-image" href="#">
-                <img class="hotel-item-image" src="img/catalog/hotel-amara.jpg" alt="Вид гостиницы в скале" width="180" height="120">
+                <img class="hotel-item-image" src="img/catalog/hotel-amara.jpg" alt="Вид гостиницы в скале." width="180" height="120">
               </a>
               <div class="hotel-main">
                 <div class="hotel-head">
@@ -292,7 +291,7 @@
           <li class="hotel-item">
             <div class="hotel-container">
               <a class="hotel-item-link hotel-item-link-image" href="#">
-                <img class="hotel-item-image" src="img/catalog/hotel-quail.jpg" alt="Вид мотеля на фоне далекого каньона" width="180" height="120">
+                <img class="hotel-item-image" src="img/catalog/hotel-quail.jpg" alt="Вид мотеля на фоне далекого каньона." width="180" height="120">
               </a>
               <div class="hotel-main">
                 <div class="hotel-head">
@@ -326,7 +325,7 @@
           <li class="hotel-item">
             <div class="hotel-container">
               <a class="hotel-item-link hotel-item-link-image" href="#">
-                <img class="hotel-item-image" src="img/catalog/hotel-villas.jpg" alt="Вида каньона из Poco Diablo" width="180" height="120">
+                <img class="hotel-item-image" src="img/catalog/hotel-villas.jpg" alt="Вида каньона из Poco Diablo." width="180" height="120">
               </a>
               <div class="hotel-main">
                 <div class="hotel-head">
@@ -359,7 +358,7 @@
           <li class="hotel-item">
             <div class="hotel-container">
               <a class="hotel-item-link hotel-item-link-image" href="#">
-                <img class="hotel-item-image" src="img/catalog/hotel-greentree.jpg" alt="Фотография лесистых склонов" width="180" height="120">
+                <img class="hotel-item-image" src="img/catalog/hotel-greentree.jpg" alt="Фотография лесистых склонов." width="180" height="120">
               </a>
               <div class="hotel-main">
                 <div class="hotel-head">
@@ -482,7 +481,7 @@
   <div class="modal-container"> <!--add modal-container-open to open-->
     <div class="modal-hotels">
       <h2 class="modal-hotels-title">Поиск гостиницы в Седоне</h2>
-      <button class="button modal-hotels-close">
+      <button class="button modal-hotels-close" type="button">
         <span class="visually-hidden">Закрыть</span>
         <svg width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" fill="#000"/>
