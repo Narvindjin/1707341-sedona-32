@@ -20,8 +20,15 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   margin: 0;
+  height: 100%;
+}
+.site-container{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -362,10 +369,6 @@ body {
 .main-container{
   flex-grow: 1;
 }
-.page-container{
-  width: 1200px;
-  margin: 0 auto;
-}
 .intro{
   background: url(img/index/index-background.jpg) no-repeat;
   background-color: #000000;
@@ -431,22 +434,9 @@ body {
   text-align: center;
   min-height: 384px;
 }
-.advantages-item-important {
-  background: #83B3D3;
-  color: #FFFFFF;
-}
-.advantages-item-important .advantages-title {
-  margin-top: 98px;
-  margin-bottom: 29px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 220px;
-}
 .advantages-item-important .advantages-text {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 220px;
+  color: #FFFFFF;
 }
 .advantages-item .advantages-title {
   margin-top: 98px;
@@ -455,12 +445,23 @@ body {
   margin-right: auto;
   max-width: 180px;
 }
-.advantages-item .advantages-text {
+.advantages-text {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   max-width: 250px;
   color: #333333
+}
+.advantages-item-important {
+  background: #83B3D3;
+}
+.advantages-item-important .advantages-title {
+  margin-top: 98px;
+  margin-bottom: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 220px;
+  color: #FFFFFF;
 }
 .advantages-title {
   text-transform: uppercase;
@@ -481,10 +482,6 @@ body {
 .advantages-village-item .advantages-text {
   margin-top: 0px;
   margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 250px;
-  color: #333333
 }
 .advantages-white {
   background:#FFFFFF;
@@ -689,7 +686,7 @@ body {
 }
 .footer-button:focus {
   border: 3px solid #83B3D3;
-  border-radius: 2px;
+  border-radius: 10px;
   outline: none;
 }
 .footer-button:active path{
@@ -840,7 +837,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 11px;
-  color: #333333;
+  color:#333333
 }
 .modal-hotels-error{
   color: #FF5757;
@@ -1655,7 +1652,7 @@ body {
   outline: none;
 }
 .catalog-newsletter{
-  color: #333333;;
+  color: #333333;
   margin-bottom: 137px;
 }
 .catalog-newsletter-title{
