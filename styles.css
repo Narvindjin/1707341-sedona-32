@@ -628,7 +628,7 @@ footer {
   flex-wrap: wrap;
   width: 1200px;
   margin: 0 auto;
-  height: 120px;
+  min-height: 120px;
   align-items: center;
 }
 .footer-contact-phone{
@@ -668,7 +668,7 @@ footer {
   margin-left: 61px;
   display: grid;
   grid-template-columns: repeat(5, 40px);
-  grid-template-rows: 40px;
+  grid-auto-rows: 40px;
   gap: 4px;
   list-style-type: none;
 }
